@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+
+    "name": "Add to Twitter Lists",
+    "description": "Add a person easily to your twitter lists.",
+    "version": "0.1",
+
+    "content_scripts": [
+        {
+            "matches": [
+                "https://twitter.com/"
+            ],
+            "js": ["twitter_home.js"]
+        }
+    ]
+}
